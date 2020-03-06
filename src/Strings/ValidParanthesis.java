@@ -5,9 +5,6 @@ import java.util.Stack;
 
 public class ValidParanthesis {
 
-
-    //  Input: "()[]{}"
-    //  Input: "([)]"
     public static void main(String[] mains) {
 //        String s = "()[]{}";
         String s = "){";
