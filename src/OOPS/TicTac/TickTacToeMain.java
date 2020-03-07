@@ -1,4 +1,4 @@
-package OOPS.TicTacToe;
+package OOPS.TicTac;
 
 public class TickTacToeMain {
 
