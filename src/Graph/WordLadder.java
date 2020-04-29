@@ -33,6 +33,7 @@ public class WordLadder {
         List<List<String>> global = new ArrayList<>();
 
         Queue<GNodeInfo> queue = new LinkedList<>();
+
         boolean[] visited = new boolean[wordList.size()];
 
         ArrayList<String> s = new ArrayList<>();
@@ -46,8 +47,7 @@ public class WordLadder {
 
             if (tem.data.equals(endWord)) {
                 global.add(tem.paths);
-            }
-else {
+            } else {
                 for (int i = 0; i < wordList.size(); i++) {
 
                     if (isConnection(tem.data, wordList.get(i)) && !visited[i] && !wordList.get(i).equalsIgnoreCase(beginWord)) {

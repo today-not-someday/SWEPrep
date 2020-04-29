@@ -36,6 +36,7 @@ public class Merge2List {
 
         ListNode headL1 = l1;
         ListNode headL2 = l2;
+
         ListNode newHead = null;
         ListNode pointer = newHead;
 
